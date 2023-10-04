@@ -22,9 +22,30 @@
 // i++;
 // }while(i<=100);
 
-let x="        anik            ";
-let y=x.trim();
+// let x="        anik            ";
+// let y=x.trim();
 
-// let z = x.concat(" ",y);
-document.write(x.length)
-document.write(y.length)
+// // let z = x.concat(" ",y);
+// document.write(x.length)
+// document.write(y.length)
+
+
+//object
+let car ={
+    name:"Bmw",
+    Price:"16Lakh",
+    Color:"Black",
+    
+}
+let Men ={
+      Color:"BLack",
+      height:"5'2",
+      Age:21,
+      weight:58,
+     name :function(){
+         return this.Color;
+
+     }
+}
+console.log(car.name);
+console.log(Men.name());
